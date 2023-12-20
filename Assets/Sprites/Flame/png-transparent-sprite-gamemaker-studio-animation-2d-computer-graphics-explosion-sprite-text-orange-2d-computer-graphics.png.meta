@@ -1,0 +1,354 @@
+fileFormatVersion: 2
+guid: 628dd0ddd5245184486fbf27742c652c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7ebc9457544d8e4b8e1c3d036be284b
+      internalID: -2039822460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_1
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 184
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35e27f6b06296bc47951ad8292f80def
+      internalID: 164546021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 184
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d59226594306ae4a89b42f24ef3a4c8
+      internalID: -1272208473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 184
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcc9d8987532f8e479648f5f10d8d9a8
+      internalID: -1359352580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 184
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3be83358567526a4682c06da7d2eedc0
+      internalID: -32994421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a54d99ddb2cec4a8e2b304be79b017
+      internalID: -1683764079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 0
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e27428f7e6cb6f499ff3ab2b2e10676
+      internalID: 497007089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 0
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4eca22077da7c074cb89b02cf7d74382
+      internalID: -817790368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aea175f795a24d14791dd4995cef28c9
+      internalID: 1321060749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 0
+        width: 184
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b10b95dc30812714b989d96e50a18fdc
+      internalID: 934631374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_1: 164546021
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_0: -2039822460
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_9: 934631374
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_6: 497007089
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_7: -817790368
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_4: -32994421
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_2: -1272208473
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_5: -1683764079
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_8: 1321060749
+      png-transparent-sprite-gamemaker-studio-animation-2d-computer-graphics-explosion-sprite-text-orange-2d-computer-graphics_3: -1359352580
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
