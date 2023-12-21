@@ -3,7 +3,7 @@ using UnityEngine;
 public class DamageDealer : MonoBehaviour
 {
     public float Damage;
-    public GameObject BoomPfb;
+    public GameObject BoomPrefab;
 
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -13,7 +13,7 @@ public class DamageDealer : MonoBehaviour
     		
             if (collision.usedByEffector)
             {
-                GameObject boom = Instantiate(BoomPfb, transform.position, Quaternion.identity);
+                GameObject boom = Instantiate(BoomPrefab, transform.position, Quaternion.identity);
                 Destroy(boom, 0.2f);
             }
             Destroy(gameObject);

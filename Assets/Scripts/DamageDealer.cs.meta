@@ -4,7 +4,7 @@ MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - BoomPfb: {fileID: 6102945639602715089, guid: 85c5a3e2130694b45b40dbfdda1076f2, type: 3}
+  - BoomPrefab: {fileID: 431986573969342998, guid: a2e227f876f2ec44ca136d9aa9c66029, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
