@@ -1,19 +1,21 @@
 ﻿using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class HeroKnight : MonoBehaviour 
+public class HeroKnight : MonoBehaviour
 {
-
+    private const int index = 0;
     [SerializeField] private float speed = 4.0f;
-    [SerializeField] private bool noBlood = false;
     public Transform GroundCheck;
     public Transform CheckPoint;
     public LayerMask Ground;
     public LayerMask Death;
+    public GameObject Dead;
 
     private Vector2 moveVector;
     private Attack attack;
     private Animator animator;
     private Rigidbody2D rb;
+    private GameObject obj;
 
     private bool onGround;
     private bool faceRight = true;
@@ -22,13 +24,10 @@ public class HeroKnight : MonoBehaviour
     private int currentAttack = 0;
     private float timeSinceAttack = 0.0f;
     private float delayToIdle = 0.0f;
-
     private float jumpForce = 160f;
     private float jumpTime = 0;
     private float jumpControlTime = 0.7f;
     private float groundCheckRadius;
-
-    private GameObject obj;
 
     private void Start()
     {
@@ -41,9 +40,7 @@ public class HeroKnight : MonoBehaviour
     private void Update()
     {
         timeSinceAttack += Time.deltaTime;
-
         float inputX = Input.GetAxis("Horizontal");
-
         HandleAttacks(inputX);
         HandleBlock();
         HandleMovement(inputX);
@@ -51,7 +48,7 @@ public class HeroKnight : MonoBehaviour
         Jump();
         Reflect();
         RemoveAttack();
-    } 
+    }
 
     void RemoveAttack()
     {
@@ -63,10 +60,10 @@ public class HeroKnight : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.Space))
         {
-            if (onGround) 
+            if (onGround)
             {
-                 jumpControl = true;
-                 animator.SetTrigger("Jump");
+                jumpControl = true;
+                animator.SetTrigger("Jump");
             }
         }
         else { jumpControl = false; }
@@ -88,12 +85,30 @@ public class HeroKnight : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag ("Death"))
-        {           
-            animator.SetBool("noBlood", noBlood);
-            animator.SetTrigger("Death");
-            transform.position = CheckPoint.position;
+        if (collision.CompareTag("Death"))
+        {
+            DeathHero();
         }
+    }
+    public void DeathHero()
+    {
+        animator.SetTrigger("Death");
+        Invoke("DeadImage", 1f);
+    }
+
+    private void DeadImage()
+    {
+        if (!Dead.activeSelf)
+        {
+            Dead.SetActive(true);
+        }
+        Invoke("Scene", 2f);
+    }
+    private void Scene()
+    {
+        SceneManager.LoadScene(index);
+        Dead.SetActive(false);
+        transform.position = CheckPoint.position;
     }
 
     void Reflect()
@@ -107,7 +122,7 @@ public class HeroKnight : MonoBehaviour
 
     void Walk()
     {
-       animator.SetFloat("moveX", Mathf.Abs(moveVector.x));
+        animator.SetFloat("moveX", Mathf.Abs(moveVector.x));
         moveVector.x = Input.GetAxis("Horizontal");
         rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
     }
@@ -134,7 +149,12 @@ public class HeroKnight : MonoBehaviour
 
     private void HandleBlock()
     {
-        //... остальные части метода остаются такими же
+
+    }
+
+    public void HandleHurt()
+    {
+        animator.SetTrigger("Hurt");
     }
 
     private void HandleMovement(float inputX)

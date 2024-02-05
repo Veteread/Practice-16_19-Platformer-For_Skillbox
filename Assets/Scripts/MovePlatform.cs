@@ -9,15 +9,16 @@ public class MovePlatform : MonoBehaviour
 	void Start()
     {
         sj = GetComponent<SliderJoint2D>();
-        //PlayerTransform = GetComponent<Transform>();       
+        PlayerTransform = GetComponent<Transform>();       
     }
     void OnTriggerEnter2D(Collider2D other)
     {
     	if (other.GetComponent<Collider2D>().tag == "Player")
     	{
-    		Debug.Log("fjk");
+    		Debug.Log("move on the platform");
     		other.transform.parent = transform;
-    	}
+            PlayerTransform.position = this.transform.position;
+        }
     	if (other.GetComponent<Collider2D>().tag == "Check")
     	{
     		if (sj.angle < 90) 

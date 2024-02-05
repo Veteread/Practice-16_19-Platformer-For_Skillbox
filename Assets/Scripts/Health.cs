@@ -3,10 +3,10 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {   
 	public float MaxHealth;
-	private float currentHealth;
-	private bool isAlive;
+	public float currentHealth;
+	public bool isAlive;
 
-    void Aweke()
+    void Awake()
     {
         currentHealth = MaxHealth;
         isAlive = true;
@@ -18,11 +18,13 @@ public class Health : MonoBehaviour
     	CheckisAlive();
     }
 
-    void CheckisAlive()
+    private void CheckisAlive()
     {
     	if (currentHealth > 0)
     		isAlive = true;
     	else
-    		Destroy(gameObject);
+    	{
+    		isAlive = false;
+    	}
     }
 }
