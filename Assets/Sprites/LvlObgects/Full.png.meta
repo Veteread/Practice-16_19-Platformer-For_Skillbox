@@ -1,0 +1,4375 @@
+fileFormatVersion: 2
+guid: 5a4365c281ca47e49be95398bd00406c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TX Village Invers 1_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 999
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a8c41747185a841b9c8f476786277f
+      internalID: -1691498956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_1
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 999
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb43eaf8b2248e24ea231ef89aaf0cd0
+      internalID: 289766347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_5
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 1007
+        width: 39
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ab0e76aa6e1f846ba296b156140853
+      internalID: 74924756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_6
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 991
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e4446ce60fa6bf41a7bf745177314fc
+      internalID: -491431511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 960
+        width: 33
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81b9991a0f422bf4986b75705d91640d
+      internalID: 860176504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_8
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 972
+        width: 17
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ab9b3b116d62841a8b75feb75a590a
+      internalID: 291887399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_9
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 965
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d3b9bbf6a9237047b80e210322eabe5
+      internalID: -797994422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_16
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 959
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40e392ce8187be4b9f0687747c22de1
+      internalID: 1037605231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_19
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 960
+        width: 47
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 029bf77411e9e1e4880f22c818555ae2
+      internalID: 131901552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_22
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 960
+        width: 42
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb05b16918e39943b6dcf440eadefd0
+      internalID: 1535047899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_24
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 961
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a61ba0c5772be84d99b3f98f1fea240
+      internalID: -11658087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_26
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 962
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6515b9e80593600449240fb52010d23e
+      internalID: -1965067336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_27
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 982
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2753805fbd697ed4696ca85c2c46ed3d
+      internalID: 327656717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_29
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 980
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9aab729a9b1859d49bc3a8f5d4d91783
+      internalID: 1746330508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 960
+        width: 33
+        height: 54
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c942ec005a6db374988a6386eb231c27
+      internalID: 576540978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_31
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 960
+        width: 27
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e840c67c76d531c4bbd8eac4e788a82a
+      internalID: -1963875952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_32
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 960
+        width: 22
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7a7928ffd1de84dacb302f61409331
+      internalID: 74706598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_33
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 961
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03713c312dce71d42974cedb849bdc59
+      internalID: 1365501632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_34
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 960
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c5976c97c0b45142bcdf1c7de2bf4ee
+      internalID: 1817259911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_35
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 960
+        width: 32
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bb9fa2fee261424099e487cc04099ed
+      internalID: 253228344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_37
+      rect:
+        serializedVersion: 2
+        x: 861
+        y: 960
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77fbd4b507fc1b444bd13560db04f964
+      internalID: 720571186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_39
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 959
+        width: 47
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b35e69f6299a0114fae9d750c56b19d7
+      internalID: -378358094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_45
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 945
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7eb402a67bd1994b9aae4159e91fc5d
+      internalID: -1063623567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_46
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 931
+        width: 36
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1f4beecd2602f42834054ec8b352c9
+      internalID: 894534501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_52
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 895
+        width: 23
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e28e78a0a9ceef4e9996cfb89ef3f7b
+      internalID: 1928219012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_53
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f92a41a7c13554e81f843c4067450a
+      internalID: -795120410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_54
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9ef9b98f22c97f45a39e2c26859e3aa
+      internalID: 2106590649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_57
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 896
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7aa45a81ab4a64f8b134feba08a15e
+      internalID: 1244809886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_58
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 896
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5a9ab680465752438aa183c6e196847
+      internalID: -1499351949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_59
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 896
+        width: 89
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3bf3ca26a6b224489af31d291726e3
+      internalID: -794134211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_62
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 916
+        width: 65
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10f7e60617cb2864298d924d728c6e63
+      internalID: 1448658913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_63
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 898
+        width: 39
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410875725ddcea74b8484878f3030dfb
+      internalID: -590939487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_64
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 844
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846ce5754705db04f8fd0e8b6484f253
+      internalID: 895746433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_65
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 896
+        width: 68
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb0f350b509c72c47a3fcf7aaf3c760d
+      internalID: -2125362325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_67
+      rect:
+        serializedVersion: 2
+        x: 891
+        y: 919
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fec368a85fd6e0429d847dffc87a68b
+      internalID: 133335424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_68
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 907
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f14aa8390c31dd242ba78c57a09bc9c0
+      internalID: -116027573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_69
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 895
+        width: 12
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5663b0bee445840ae6fe353508fe64
+      internalID: 1135986380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_70
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 908
+        width: 41
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1932a53e60382b34a834bb28af5b6243
+      internalID: -83623573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_71
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 895
+        width: 42
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14bb8d2fa72b1254c9e0f5b5d0fd17dc
+      internalID: 432184294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_72
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 894
+        width: 10
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854d896536127ef4d96444f884ef9137
+      internalID: 1328722962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_73
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 895
+        width: 11
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba11c2e43917094c8159b990c51c45d
+      internalID: -909084479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_79
+      rect:
+        serializedVersion: 2
+        x: 622
+        y: 884
+        width: 51
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 689dc5a7d3e186d4eb37fb2b7964d972
+      internalID: -251752126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_80
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 867
+        width: 34
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c24216e811c13ec418133c21a83c660c
+      internalID: -1388456926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_82
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 832
+        width: 44
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50bc19d3154cd4644aeb9ed61cc173c7
+      internalID: -538830427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_84
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 832
+        width: 34
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a47eb51a59d4ae4cacf6ea56edc78d5
+      internalID: 686842536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_85
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 843
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db4d0daec9205df4f9ba308e39795e43
+      internalID: 579756501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_86
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 832
+        width: 36
+        height: 77
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecd8b18258d202b4d95518ef91b530aa
+      internalID: 340751835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_88
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 832
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4eebc507e0f194da20d754b8e18c1b
+      internalID: 1667307522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 832
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4644af32960220e4b97244de801164cb
+      internalID: -836985774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_91
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 832
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01a9a8b7a6cc05e46bbf857137322a80
+      internalID: -1894579321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_93
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 832
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc27d5e419b8cbf4ba82faf34568eeb4
+      internalID: -1618842855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_96
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 832
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 576c480c3d6050e4084518e4f88988e1
+      internalID: 813740285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_97
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 832
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8ccd33f8be444ca4b197ed0df98ec
+      internalID: 315571067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_98
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 839
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc66d6fdc05b787429cf2c0e9810716e
+      internalID: -109189346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_99
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 828
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f693ff7c5bcbb3846816eca227a7a5ec
+      internalID: -1778364598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_100
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 843
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1f54afb9f212d94abd08104b72ba8ef
+      internalID: 1040775171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_103
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 895
+        width: 10
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64915277713d96843a11922fa4ea595f
+      internalID: 1892469988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_106
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 800
+        width: 29
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24daf8c920646cb43875f1d841ae8149
+      internalID: -692294357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_107
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 800
+        width: 75
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a9b6e75b0e64d34299c78a6661e1e8f
+      internalID: 1740617029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_109
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 831
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f99d31a24940a6f4b8e913d382147d8f
+      internalID: 273302072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_110
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 810
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ff699cc9fe41a649b8eb2307d310fe3
+      internalID: -637399017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_111
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 801
+        width: 68
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5978316e57f636845b09a4a90056e78f
+      internalID: -1588905811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_117
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 704
+        width: 47
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f30f7d9669c9e549aae21ae696a3de4
+      internalID: 2135352321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_121
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 738
+        width: 33
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 030c5a2d6e430d549a3673ac24b1b5ef
+      internalID: -1951447799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_125
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a7edb7865993f349b2a3ac350ee4ec2
+      internalID: -726709912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_126
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 768
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa83af437f6886429813eab502e84c2
+      internalID: -583562242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_129
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 768
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1a7575a0049c3749831deb3f9ffd66d
+      internalID: 530968845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_130
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 769
+        width: 87
+        height: 90
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b656225a9468ef34bb0fac09c37d7e24
+      internalID: 1725534317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_143
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 736
+        width: 63
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 865916bde63f5514ea781c97a8e0038a
+      internalID: -387060278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_146
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 736
+        width: 45
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bc3f7a7be03fa8499a241071acf0ee8
+      internalID: -952102097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_149
+      rect:
+        serializedVersion: 2
+        x: 769
+        y: 736
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37738507b72161419da7cbdfb56f44d
+      internalID: -856196567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_150
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 704
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cef142af4c6f39b45b1986fb4d18f9e4
+      internalID: -1168856099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_151
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 704
+        width: 33
+        height: 63
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e3a19c86a9a044919f9e13c00e2ba
+      internalID: -1590530953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_152
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 704
+        width: 26
+        height: 60
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a69185a948add459957d7ce494e110
+      internalID: 313653430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_156
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 704
+        width: 64
+        height: 92
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 912b1ad5bada0674ebdd2e05202b3e92
+      internalID: -1231907318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_157
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 704
+        width: 46
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 339f4d58ffdcaae46b169f040cc1deb3
+      internalID: 1753911462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_158
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 704
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f884af180e77e8a47ae4ad16eddbef0d
+      internalID: 2087414974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_166
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 649
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a560ca59a1fcadc498847fcdc599b19d
+      internalID: 300709681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_167
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 676
+        width: 93
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b339ccc0ddfce7f4ea70d943591ec137
+      internalID: -770515695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_168
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 672
+        width: 18
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71538770e72fc784a9450a886b1081f9
+      internalID: -1795737735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_169
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 664
+        width: 12
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227644ce782d8004881d40a34132c734
+      internalID: 1373383497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_173
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 677
+        width: 96
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3cc754b00fd8f248b50684a592ace12
+      internalID: 487181274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_176
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 640
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc4fae48bd8f09d4192e869fdac03f6b
+      internalID: -1354742084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_178
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 640
+        width: 49
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7350ecfa8d7176488585e66b15e89a3
+      internalID: 2042988683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_180
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 640
+        width: 34
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdab022d7781ab44b887601d7b3d96c6
+      internalID: 1133251664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_181
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 647
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e036ebd20349d5e40bed4b4672ca7416
+      internalID: -934890431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_182
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 648
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14d3e5d2906601c4291bbf336871e72a
+      internalID: 260458152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_183
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 644
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a7c2a1100a5807428dc7e5403122de6
+      internalID: -605448203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_184
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 649
+        width: 94
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dcb1f22e68fcc048962808af14cde8f
+      internalID: 351591344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_187
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 609
+        width: 10
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dde6d5e087ee214ab56d11a85c0dff5
+      internalID: -1694395090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_188
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 608
+        width: 21
+        height: 87
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e6deeb02150fc4890fb9e292df33ef
+      internalID: 1030306654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_189
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 648
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0994fb6fc08fb148855978332859988
+      internalID: 1699266955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_190
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 648
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e1ebf73ab943440af99a3bb337a00c
+      internalID: -755915408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_191
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 648
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e42bb59d2c7372a46b2105db22ac3b7a
+      internalID: -2009769784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_192
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 640
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cecc414226f58fa4d8a328f00b009970
+      internalID: -1082397633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_193
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 640
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639dad2822ec24849859effee9550c6f
+      internalID: 1313356607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_195
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 640
+        width: 90
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e356e9409d9e90d4e84d6c6c021ec614
+      internalID: -1663630727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_199
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 612
+        width: 17
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e6fb21a8ed16624392e14211b80c737
+      internalID: -1686978111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_200
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 611
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f5dd59a330a3d4c82601f09d06e259
+      internalID: 2125840280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_201
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 614
+        width: 84
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90eb1ab54bea2bd4ca746da5b61c03ee
+      internalID: 406071558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_204
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 608
+        width: 8
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ff3cb5e61ee694095be8692434740e
+      internalID: -1673217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_205
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 608
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a16e6366e1f5848429244ee837a48b3d
+      internalID: 722946693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_207
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 608
+        width: 61
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9453958d811924c4da4aa625c1f41b1c
+      internalID: 171080712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_209
+      rect:
+        serializedVersion: 2
+        x: 645
+        y: 608
+        width: 22
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b13ce05f2bd68b40b6eac701618066e
+      internalID: 846608358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_210
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 608
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 180b513bb07511343b3d09de72101d58
+      internalID: 1759148670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_212
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 608
+        width: 95
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de6fe7b0f5ab8eb4bb16202e8f532faf
+      internalID: 713536089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_216
+      rect:
+        serializedVersion: 2
+        x: 892
+        y: 614
+        width: 104
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 835681c9b293e47419f1b3351dc9941d
+      internalID: -347949729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_222
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 582
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1d8c4172ab7d6043af6ff5664fcb857
+      internalID: 165374925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_223
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 579
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 750dc240f9833bf44a0c8d7b3ffb9018
+      internalID: -1416779853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_224
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 582
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1f9a9d91ef548d4f8b36b4c3121e19a
+      internalID: -342908922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_225
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 576
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f1f5160e89d72f4792e35025122dee3
+      internalID: -2023683694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_226
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 588
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c87a4bd8dbd7de419071b35bc3cae5d
+      internalID: 1326641973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_227
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 589
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6918e55273fd5314ab0ba91e68771c20
+      internalID: 1061859557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_229
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 582
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80a66c016b799274dbeff27692cdacb0
+      internalID: 1400860694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_231
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 581
+        width: 40
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1123bcb6adf6dd74e84accfbe9481ee7
+      internalID: 362478287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_239
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 544
+        width: 15
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 778a0b457910bd147977b7e6d66963df
+      internalID: 1880809042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_240
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 544
+        width: 25
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed9bbe7e7ba2eb4aa35483ff31e8f99
+      internalID: -1494749437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_241
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 544
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e65884bc07248444aa1d68db30f0878
+      internalID: 1674765099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_246
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 550
+        width: 36
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3f498997e8d45c4289047110287cfe0
+      internalID: -1102864215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_262
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 512
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f1b9db9b71bfb74999289d6dcd4e3eb
+      internalID: 1986969432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_263
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 512
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 2, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b777f9a6f6dd9614ba01435924518822
+      internalID: -869585859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_264
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 512
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddedfbb44a8e3164bbf1add31405394d
+      internalID: 1191442715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_268
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 536
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cfb7f4a110b3d4d9bc2b6d368590ca
+      internalID: -668316194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_269
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 536
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e3464bfdcf6804fa9cf1707f55bd2e
+      internalID: -439228627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_280
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 480
+        width: 27
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52e1f26b09dc5974fa4d953d0a37d21e
+      internalID: -936183478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_281
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 480
+        width: 25
+        height: 55
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4061bbe3194a984182caad01cfc8396
+      internalID: 161909000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_282
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 480
+        width: 27
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89235ab9520f5214485cb0c1cf84a5f3
+      internalID: -1336734299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_283
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 480
+        width: 29
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cdb21ea856e6234982e823ef36b9c59
+      internalID: -453102273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_284
+      rect:
+        serializedVersion: 2
+        x: 482
+        y: 480
+        width: 29
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19da0f88fe04b094cb379cef3e498ffd
+      internalID: -1392679843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_285
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 480
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d90d07ec0ee402342af1f43734d0f627
+      internalID: 2034505336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_286
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 32
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf6ed21e3462c954e874b6bc89b21933
+      internalID: -1490035471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_287
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 480
+        width: 22
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 019b2c664a2d7a14b9383b7414a4a491
+      internalID: -1706156110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_289
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 480
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22a72ea6437de05499971893bdc4b0bc
+      internalID: -312679496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_291
+      rect:
+        serializedVersion: 2
+        x: 759
+        y: 480
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f172147af840ee14783affc067c7efb5
+      internalID: -1956787047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_293
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 480
+        width: 35
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f721e55bf296646ac0445390489ca1
+      internalID: -432238422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_295
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 480
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11a1e5db71f8234b9a4905cf111e250
+      internalID: 972529093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_308
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebb98e4829271e0458197ce11e01bedf
+      internalID: 121791948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_309
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 448
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56431d35984265148a20f48b958681ba
+      internalID: 831611001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_310
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 11
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea025a01e0690f74bbc89b3e74464adb
+      internalID: 668160160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_312
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 415
+        width: 155
+        height: 163
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c32a8e105e5bc43943e2a1a21b4d5f
+      internalID: -1525726154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_313
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 415
+        width: 121
+        height: 138
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f837f3731dc061c41bcd265042d62d1a
+      internalID: 9379131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_314
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 416
+        width: 98
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f272d275603f34c831cce08c8d7d4f
+      internalID: 1591988737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_317
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 94
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86018d7d1b36e3d4da56fd67b7a4cb0e
+      internalID: -211972717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_320
+      rect:
+        serializedVersion: 2
+        x: 612
+        y: 416
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be8e3aca87674a4b83c68046ae1a89e
+      internalID: -1442057303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_324
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 426
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3537319db8b7bb24695f5883027fe25c
+      internalID: -122675726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_325
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 416
+        width: 32
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b305be625747844bb54a5df7fdf8edb
+      internalID: -1128822129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_327
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 416
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86179e8f3bc0a3d41b5ccb99e7e96fce
+      internalID: -226615224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_329
+      rect:
+        serializedVersion: 2
+        x: 957
+        y: 416
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385924eb32440524498a4df9aabacc3c
+      internalID: -1128022646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_348
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 352
+        width: 136
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4883f12037c7ae8458b043f679dcac88
+      internalID: 521823249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_353
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 351
+        width: 129
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b684dcc1d953234595208d572448ee5
+      internalID: -484978279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_357
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 352
+        width: 65
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db04660f94cdec24b9a37c480341a72f
+      internalID: 72606399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_359
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 352
+        width: 32
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b26daf027106fe48be45c9be7f37a76
+      internalID: -1912885154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_361
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 352
+        width: 32
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10ace9131d670944a849d31bd81d40c6
+      internalID: -1372702621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_363
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62efd4251d903c41b6ff64d87fb7723
+      internalID: -1370001727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_365
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 352
+        width: 32
+        height: 40
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c79895c93f196ee43a45b94ad32b6250
+      internalID: 1286100333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_366
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 364
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c56e41cec14b6f947bbc0a848f4efb0e
+      internalID: 1407345123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_367
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 363
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d82b9e72c986c14395118e535f4acba
+      internalID: 238692627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_368
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 363
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb6904508a123d04c8c7c90f89a4eba2
+      internalID: -2024962781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_388
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 331
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91ac571c8e70d8345828689ef244856f
+      internalID: -1992289293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_389
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 331
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cfc99ee9ac02e4c8170ccf360848d0
+      internalID: 721590721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_390
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 330
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0cff748a24e1b14ea8b33de64cdc67e
+      internalID: 1121145267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_391
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 64
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 269b48acd0ac9354b837e697e8a93f9e
+      internalID: -1060854258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_394
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 288
+        width: 68
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e2ffb72ef0f37498e151f62db1ec6c
+      internalID: -2081536327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_397
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 287
+        width: 121
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f83f8cdf814f6e44790396138f3b3b67
+      internalID: -1129750384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_401
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 287
+        width: 36
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7390b2650fa82454087e5e29b776093b
+      internalID: -558729848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_403
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 287
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b8b7ce13c68e5409d42551906e5616
+      internalID: 588464704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_405
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 287
+        width: 67
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba9c3933b4588ab44a4a46d3b4072f8d
+      internalID: 766297787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_408
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 287
+        width: 78
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a65eaaff591ea4a9020be5d182b4d1
+      internalID: -1726757683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_411
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 287
+        width: 107
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 569b79d0b616c034d9fe33fd300b0109
+      internalID: 1009641424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_416
+      rect:
+        serializedVersion: 2
+        x: 949
+        y: 255
+        width: 11
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e650ce1a56455014395eb59a6a72c3e1
+      internalID: -497878830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_417
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 311
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4761d6fd08365484791dd7611e9c8db5
+      internalID: 147285702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_441
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 254
+        width: 9
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f597fd17743ec2f4f948788f41685012
+      internalID: -1999215541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_442
+      rect:
+        serializedVersion: 2
+        x: 933
+        y: 255
+        width: 10
+        height: 66
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ab54a3320e4034b87737473db14ccd
+      internalID: -410310053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_443
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 224
+        width: 7
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3f96c8cdfd7614a9cd1b995d0f38a9
+      internalID: -1166121639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_444
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 229
+        width: 16
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5493ab0eeeb5be4e98fef07ba6f1dee
+      internalID: -1489883135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_445
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 234
+        width: 65
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01ddbc13427495b4d9c6bddadff558dd
+      internalID: -2084881960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_447
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 229
+        width: 129
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2039700ec1815b94dbf0b4e267298883
+      internalID: -1925183839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_449
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 312
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a330f4be5e4d2b4eb3c34ef0df6aad7
+      internalID: 1823577093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_453
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 190
+        width: 12
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aa1387c2cb9a0a45b963eef1db1ded2
+      internalID: 590098642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TX Village Invers 1_472
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 38
+        width: 92
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75e7c47022b6fe4fafa863f78dda0e4
+      internalID: 1856420159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      TX Village Invers 1_180: 1133251664
+      TX Village Invers 1_365: 1286100333
+      TX Village Invers 1_284: -1392679843
+      TX Village Invers 1_120: -2146892109
+      TX Village Invers 1_455: 2048476957
+      TX Village Invers 1_171: 1721945025
+      TX Village Invers 1_40: 843874062
+      TX Village Invers 1_250: -1048356022
+      TX Village Invers 1_60: -1960513074
+      TX Village Invers 1_428: 1682274074
+      TX Village Invers 1_467: -1523079881
+      TX Village Invers 1_15: 39797500
+      TX Village Invers 1_96: 813740285
+      TX Village Invers 1_302: 1810993086
+      TX Village Invers 1_119: -78962419
+      TX Village Invers 1_52: 1928219012
+      TX Village Invers 1_261: 105060006
+      TX Village Invers 1_411: 1009641424
+      TX Village Invers 1_450: -367891395
+      TX Village Invers 1_5: 74924756
+      TX Village Invers 1_424: -1043902904
+      TX Village Invers 1_2: -1888104007
+      TX Village Invers 1_47: 282795386
+      TX Village Invers 1_55: 1567176697
+      TX Village Invers 1_437: 1507849153
+      TX Village Invers 1_199: -1686978111
+      TX Village Invers 1_333: 1235391077
+      TX Village Invers 1_213: 225729826
+      TX Village Invers 1_383: 849662425
+      TX Village Invers 1_380: -1056769127
+      TX Village Invers 1_188: 1030306654
+      TX Village Invers 1_452: 1484844089
+      TX Village Invers 1_239: 1880809042
+      TX Village Invers 1_161: -1636323865
+      TX Village Invers 1_427: 1174888445
+      TX Village Invers 1_290: 1468266198
+      TX Village Invers 1_417: 147285702
+      TX Village Invers 1_370: 612503564
+      TX Village Invers 1_102: -427767500
+      TX Village Invers 1_103: 1892469988
+      TX Village Invers 1_372: 699892694
+      TX Village Invers 1_262: 1986969432
+      TX Village Invers 1_33: 1365501632
+      TX Village Invers 1_23: 540331253
+      TX Village Invers 1_202: 103931393
+      TX Village Invers 1_376: -348622504
+      TX Village Invers 1_374: -1944287269
+      TX Village Invers 1_420: -907169867
+      TX Village Invers 1_14: -1259846013
+      TX Village Invers 1_130: 1725534317
+      TX Village Invers 1_136: 140905623
+      TX Village Invers 1_42: 803766505
+      TX Village Invers 1_282: -1336734299
+      TX Village Invers 1_210: 1759148670
+      TX Village Invers 1_272: -1171950558
+      TX Village Invers 1_409: 2067752997
+      TX Village Invers 1_441: -1999215541
+      TX Village Invers 1_225: -2023683694
+      TX Village Invers 1_445: -2084881960
+      TX Village Invers 1_401: -558729848
+      TX Village Invers 1_106: -692294357
+      TX Village Invers 1_448: 1455413822
+      TX Village Invers 1_205: 722946693
+      TX Village Invers 1_247: 1589598955
+      TX Village Invers 1_113: 1598354246
+      TX Village Invers 1_344: 631610446
+      TX Village Invers 1_384: -2024359668
+      TX Village Invers 1_426: -64989182
+      TX Village Invers 1_63: -590939487
+      TX Village Invers 1_292: 1654361356
+      TX Village Invers 1_393: 1384003513
+      TX Village Invers 1_126: -583562242
+      TX Village Invers 1_167: -770515695
+      TX Village Invers 1_332: -1706485457
+      TX Village Invers 1_134: 1343450649
+      TX Village Invers 1_397: -1129750384
+      TX Village Invers 1_323: 1181382175
+      TX Village Invers 1_442: -410310053
+      TX Village Invers 1_65: -2125362325
+      TX Village Invers 1_97: 315571067
+      TX Village Invers 1_242: 800009978
+      TX Village Invers 1_36: 628358570
+      TX Village Invers 1_164: 1368653017
+      TX Village Invers 1_277: 2071372394
+      TX Village Invers 1_154: -61491293
+      TX Village Invers 1_468: 744803067
+      TX Village Invers 1_298: -2017360782
+      TX Village Invers 1_260: 1039965025
+      TX Village Invers 1_41: 411923210
+      TX Village Invers 1_169: 1373383497
+      TX Village Invers 1_356: -337610049
+      TX Village Invers 1_196: 151937479
+      TX Village Invers 1_190: -755915408
+      TX Village Invers 1_237: 1582805343
+      TX Village Invers 1_326: -1938350418
+      TX Village Invers 1_187: -1694395090
+      TX Village Invers 1_222: 165374925
+      TX Village Invers 1_201: 406071558
+      TX Village Invers 1_9: -797994422
+      TX Village Invers 1_111: -1588905811
+      TX Village Invers 1_233: -151305947
+      TX Village Invers 1_18: -562904273
+      TX Village Invers 1_80: -1388456926
+      TX Village Invers 1_236: -1765308833
+      TX Village Invers 1_320: -1442057303
+      TX Village Invers 1_244: -2005354122
+      TX Village Invers 1_72: 1328722962
+      TX Village Invers 1_387: -1352858081
+      TX Village Invers 1_431: -785787158
+      TX Village Invers 1_386: -837508485
+      TX Village Invers 1_362: -883704352
+      TX Village Invers 1_90: -646706717
+      TX Village Invers 1_131: 1403805066
+      TX Village Invers 1_110: -637399017
+      TX Village Invers 1_152: 313653430
+      TX Village Invers 1_249: -429569500
+      TX Village Invers 1_313: 9379131
+      TX Village Invers 1_391: -1060854258
+      TX Village Invers 1_453: 590098642
+      TX Village Invers 1_230: -2084214690
+      TX Village Invers 1_203: 1681953655
+      TX Village Invers 1_85: 579756501
+      TX Village Invers 1_464: -1329805411
+      TX Village Invers 1_296: -316237863
+      TX Village Invers 1_46: 894534501
+      TX Village Invers 1_235: -351798153
+      TX Village Invers 1_115: 1115468420
+      TX Village Invers 1_449: 1823577093
+      TX Village Invers 1_176: -1354742084
+      TX Village Invers 1_385: -1173618944
+      TX Village Invers 1_265: 139570539
+      TX Village Invers 1_221: -1922198830
+      TX Village Invers 1_123: -1005603446
+      TX Village Invers 1_71: 432184294
+      TX Village Invers 1_400: -705235151
+      TX Village Invers 1_304: 943282044
+      TX Village Invers 1_444: -1489883135
+      TX Village Invers 1_267: 1565904690
+      TX Village Invers 1_300: 480790355
+      TX Village Invers 1_172: 1033183039
+      TX Village Invers 1_345: -762788326
+      TX Village Invers 1_26: -1965067336
+      TX Village Invers 1_35: 253228344
+      TX Village Invers 1_186: -777498363
+      TX Village Invers 1_91: -1894579321
+      TX Village Invers 1_207: 171080712
+      TX Village Invers 1_456: 825548503
+      TX Village Invers 1_241: 1674765099
+      TX Village Invers 1_335: 2080950075
+      TX Village Invers 1_138: -1207302928
+      TX Village Invers 1_48: 499613229
+      TX Village Invers 1_56: 2117962392
+      TX Village Invers 1_270: 786294682
+      TX Village Invers 1_447: -1925183839
+      TX Village Invers 1_145: 1277398509
+      TX Village Invers 1_373: -1230147863
+      TX Village Invers 1_231: 362478287
+      TX Village Invers 1_381: 1683212315
+      TX Village Invers 1_143: -387060278
+      TX Village Invers 1_1: 289766347
+      TX Village Invers 1_216: -347949729
+      TX Village Invers 1_54: 2106590649
+      TX Village Invers 1_150: -1168856099
+      TX Village Invers 1_189: 1699266955
+      TX Village Invers 1_124: 1017092231
+      TX Village Invers 1_279: 72817843
+      TX Village Invers 1_68: -116027573
+      TX Village Invers 1_435: -590277115
+      TX Village Invers 1_368: -2024962781
+      TX Village Invers 1_0: -1691498956
+      TX Village Invers 1_357: 72606399
+      TX Village Invers 1_359: -1912885154
+      TX Village Invers 1_423: 1203893087
+      TX Village Invers 1_95: -169558728
+      TX Village Invers 1_148: 2075162182
+      TX Village Invers 1_268: -668316194
+      TX Village Invers 1_173: 487181274
+      TX Village Invers 1_112: 1125397719
+      TX Village Invers 1_355: 1496131732
+      TX Village Invers 1_77: 1915441269
+      TX Village Invers 1_234: 451252227
+      TX Village Invers 1_74: 1856912190
+      TX Village Invers 1_317: -211972717
+      TX Village Invers 1_34: 1817259911
+      TX Village Invers 1_38: 1280718051
+      TX Village Invers 1_179: 1243596773
+      TX Village Invers 1_286: -1490035471
+      TX Village Invers 1_399: 1107487504
+      TX Village Invers 1_275: 1420013578
+      TX Village Invers 1_108: -284200334
+      TX Village Invers 1_291: -1956787047
+      TX Village Invers 1_433: -1679444865
+      TX Village Invers 1_273: -1464853275
+      TX Village Invers 1_135: -1236981586
+      TX Village Invers 1_27: 327656717
+      TX Village Invers 1_214: -1689021649
+      TX Village Invers 1_137: 1422617006
+      TX Village Invers 1_457: 1846436368
+      TX Village Invers 1_100: 1040775171
+      TX Village Invers 1_243: 2033094075
+      TX Village Invers 1_257: 441660510
+      TX Village Invers 1_25: 889629004
+      TX Village Invers 1_88: 1667307522
+      TX Village Invers 1_146: -952102097
+      TX Village Invers 1_4: 1660701491
+      TX Village Invers 1_414: 1107888476
+      TX Village Invers 1_114: -1137241778
+      TX Village Invers 1_382: -781462516
+      TX Village Invers 1_94: 314311148
+      TX Village Invers 1_82: -538830427
+      TX Village Invers 1_303: -1684469744
+      TX Village Invers 1_64: 895746433
+      TX Village Invers 1_395: -365005322
+      TX Village Invers 1_418: -80103773
+      TX Village Invers 1_429: -450458983
+      TX Village Invers 1_446: 476766241
+      TX Village Invers 1_174: 1135138115
+      TX Village Invers 1_340: -364674866
+      TX Village Invers 1_421: 1468195092
+      TX Village Invers 1_101: 5853707
+      TX Village Invers 1_178: 2042988683
+      TX Village Invers 1_98: -109189346
+      TX Village Invers 1_294: 358433527
+      TX Village Invers 1_336: 1667654720
+      TX Village Invers 1_342: 1854504131
+      TX Village Invers 1_460: -993421926
+      TX Village Invers 1_53: -795120410
+      TX Village Invers 1_311: -33082014
+      TX Village Invers 1_349: 980769324
+      TX Village Invers 1_440: 1904690333
+      TX Village Invers 1_31: -1963875952
+      TX Village Invers 1_185: -1376911926
+      TX Village Invers 1_37: 720571186
+      TX Village Invers 1_227: 1061859557
+      TX Village Invers 1_263: -869585859
+      TX Village Invers 1_366: 1407345123
+      TX Village Invers 1_181: -934890431
+      TX Village Invers 1_392: 1893925351
+      TX Village Invers 1_83: 1544383443
+      TX Village Invers 1_307: 1038028130
+      TX Village Invers 1_66: 1882420516
+      TX Village Invers 1_248: 220993364
+      TX Village Invers 1_147: 1002158521
+      TX Village Invers 1_121: -1951447799
+      TX Village Invers 1_338: 2082871014
+      TX Village Invers 1_436: 1335551830
+      TX Village Invers 1_191: -2009769784
+      TX Village Invers 1_319: 1458632046
+      TX Village Invers 1_92: -1157128864
+      TX Village Invers 1_466: -902718590
+      TX Village Invers 1_116: -1626156914
+      TX Village Invers 1_278: 1949914967
+      TX Village Invers 1_195: -1663630727
+      TX Village Invers 1_322: 1198211616
+      TX Village Invers 1_251: -162360868
+      TX Village Invers 1_283: -453102273
+      TX Village Invers 1_17: -1204986893
+      TX Village Invers 1_406: 296388778
+      TX Village Invers 1_360: 571846031
+      TX Village Invers 1_193: 1313356607
+      TX Village Invers 1_75: 2143676554
+      TX Village Invers 1_32: 74706598
+      TX Village Invers 1_84: 686842536
+      TX Village Invers 1_358: -1515332843
+      TX Village Invers 1_217: -758108666
+      TX Village Invers 1_271: -1221464759
+      TX Village Invers 1_89: -836985774
+      TX Village Invers 1_151: -1590530953
+      TX Village Invers 1_353: -484978279
+      TX Village Invers 1_329: -1128022646
+      TX Village Invers 1_133: 416169989
+      TX Village Invers 1_280: -936183478
+      TX Village Invers 1_330: -685415325
+      TX Village Invers 1_70: -83623573
+      TX Village Invers 1_327: -226615224
+      TX Village Invers 1_81: -1985435636
+      TX Village Invers 1_212: 713536089
+      TX Village Invers 1_24: -11658087
+      TX Village Invers 1_155: -1302777845
+      TX Village Invers 1_57: 1244809886
+      TX Village Invers 1_469: 676118619
+      TX Village Invers 1_218: 1462707297
+      TX Village Invers 1_192: -1082397633
+      TX Village Invers 1_347: -803048916
+      TX Village Invers 1_128: -1371269866
+      TX Village Invers 1_310: 668160160
+      TX Village Invers 1_350: -2007565404
+      TX Village Invers 1_125: -726709912
+      TX Village Invers 1_226: 1326641973
+      TX Village Invers 1_459: 794201459
+      TX Village Invers 1_200: 2125840280
+      TX Village Invers 1_163: -618742894
+      TX Village Invers 1_99: -1778364598
+      TX Village Invers 1_413: -963827495
+      TX Village Invers 1_129: 530968845
+      TX Village Invers 1_159: -817272183
+      TX Village Invers 1_308: 121791948
+      TX Village Invers 1_51: 78107051
+      TX Village Invers 1_309: 831611001
+      TX Village Invers 1_58: -1499351949
+      TX Village Invers 1_87: -1475102830
+      TX Village Invers 1_168: -1795737735
+      TX Village Invers 1_69: 1135986380
+      TX Village Invers 1_127: -549475366
+      TX Village Invers 1_209: 846608358
+      TX Village Invers 1_438: 572074237
+      TX Village Invers 1_240: -1494749437
+      TX Village Invers 1_144: 694777066
+      TX Village Invers 1_198: 1408219503
+      TX Village Invers 1_166: 300709681
+      TX Village Invers 1_314: 1591988737
+      TX Village Invers 1_434: 393541384
+      TX Village Invers 1_379: 1770722158
+      TX Village Invers 1_229: 1400860694
+      TX Village Invers 1_8: 291887399
+      TX Village Invers 1_118: -623764084
+      TX Village Invers 1_295: 972529093
+      TX Village Invers 1_458: -62514226
+      TX Village Invers 1_451: -1040209012
+      TX Village Invers 1_472: 1856420159
+      TX Village Invers 1_140: 136169807
+      TX Village Invers 1_325: -1128822129
+      TX Village Invers 1_184: 351591344
+      TX Village Invers 1_318: 1915504354
+      TX Village Invers 1_252: 1663607363
+      TX Village Invers 1_122: 339101368
+      TX Village Invers 1_7: 860176504
+      TX Village Invers 1_354: 1116794662
+      TX Village Invers 1_67: 133335424
+      TX Village Invers 1_405: 766297787
+      TX Village Invers 1_410: 236530511
+      TX Village Invers 1_255: 488605487
+      TX Village Invers 1_59: -794134211
+      TX Village Invers 1_86: 340751835
+      TX Village Invers 1_403: 588464704
+      TX Village Invers 1_281: 161909000
+      TX Village Invers 1_44: 331063514
+      TX Village Invers 1_398: -235042358
+      TX Village Invers 1_439: 1099985303
+      TX Village Invers 1_142: 1643043669
+      TX Village Invers 1_369: -1508616464
+      TX Village Invers 1_305: 274852484
+      TX Village Invers 1_375: 1102637236
+      TX Village Invers 1_462: 1091262083
+      TX Village Invers 1_39: -378358094
+      TX Village Invers 1_293: -432238422
+      TX Village Invers 1_337: -1848295274
+      TX Village Invers 1_316: 727237141
+      TX Village Invers 1_334: 923943360
+      TX Village Invers 1_109: 273302072
+      TX Village Invers 1_141: -442953240
+      TX Village Invers 1_160: 1341057325
+      TX Village Invers 1_223: -1416779853
+      TX Village Invers 1_306: -2131086091
+      TX Village Invers 1_454: -1442370515
+      TX Village Invers 1_104: 487935866
+      TX Village Invers 1_19: 131901552
+      TX Village Invers 1_390: 1121145267
+      TX Village Invers 1_394: -2081536327
+      TX Village Invers 1_43: 1199820560
+      TX Village Invers 1_266: -1464962540
+      TX Village Invers 1_443: -1166121639
+      TX Village Invers 1_361: -1372702621
+      TX Village Invers 1_170: 1775339422
+      TX Village Invers 1_341: 502567932
+      TX Village Invers 1_396: 889392477
+      TX Village Invers 1_45: -1063623567
+      TX Village Invers 1_79: -251752126
+      TX Village Invers 1_3: 704367414
+      TX Village Invers 1_301: 141341952
+      TX Village Invers 1_416: -497878830
+      TX Village Invers 1_367: 238692627
+      TX Village Invers 1_388: -1992289293
+      TX Village Invers 1_156: -1231907318
+      TX Village Invers 1_13: 1806227414
+      TX Village Invers 1_29: 1746330508
+      TX Village Invers 1_408: -1726757683
+      TX Village Invers 1_28: -738199685
+      TX Village Invers 1_49: 1805574824
+      TX Village Invers 1_258: -1954458679
+      TX Village Invers 1_232: -1904440346
+      TX Village Invers 1_76: 1113169991
+      TX Village Invers 1_197: 775119280
+      TX Village Invers 1_224: -342908922
+      TX Village Invers 1_471: 1184716344
+      TX Village Invers 1_377: -2006531727
+      TX Village Invers 1_132: -141988681
+      TX Village Invers 1_297: 1352808341
+      TX Village Invers 1_321: -279493517
+      TX Village Invers 1_470: -1351811899
+      TX Village Invers 1_245: 1542960306
+      TX Village Invers 1_402: 1428459824
+      TX Village Invers 1_194: 1107638302
+      TX Village Invers 1_289: -312679496
+      TX Village Invers 1_465: -1134490064
+      TX Village Invers 1_117: 2135352321
+      TX Village Invers 1_165: -1346953602
+      TX Village Invers 1_157: 1753911462
+      TX Village Invers 1_78: 1556488297
+      TX Village Invers 1_215: 479683370
+      TX Village Invers 1_246: -1102864215
+      TX Village Invers 1_328: 1321548022
+      TX Village Invers 1_351: 692221108
+      TX Village Invers 1_264: 1191442715
+      TX Village Invers 1_61: -569154522
+      TX Village Invers 1_220: -1199511072
+      TX Village Invers 1_425: 1411417852
+      TX Village Invers 1_107: 1740617029
+      TX Village Invers 1_162: -848037393
+      TX Village Invers 1_422: -1251524399
+      TX Village Invers 1_256: -1873052786
+      TX Village Invers 1_93: -1618842855
+      TX Village Invers 1_276: -598399149
+      TX Village Invers 1_415: 488909508
+      TX Village Invers 1_211: 404224599
+      TX Village Invers 1_430: -221909318
+      TX Village Invers 1_432: -733131248
+      TX Village Invers 1_346: -1435710082
+      TX Village Invers 1_269: -439228627
+      TX Village Invers 1_228: -948591322
+      TX Village Invers 1_206: -1805222809
+      TX Village Invers 1_412: -1669521044
+      TX Village Invers 1_288: 317721902
+      TX Village Invers 1_364: -284397397
+      TX Village Invers 1_21: 1971580164
+      TX Village Invers 1_30: 576540978
+      TX Village Invers 1_62: 1448658913
+      TX Village Invers 1_348: 521823249
+      TX Village Invers 1_259: 395352181
+      TX Village Invers 1_50: -1498223099
+      TX Village Invers 1_177: 1674129489
+      TX Village Invers 1_253: 1307334831
+      TX Village Invers 1_363: -1370001727
+      TX Village Invers 1_331: -739392992
+      TX Village Invers 1_407: 1027293508
+      TX Village Invers 1_324: -122675726
+      TX Village Invers 1_339: 1459149495
+      TX Village Invers 1_149: -856196567
+      TX Village Invers 1_285: 2034505336
+      TX Village Invers 1_73: -909084479
+      TX Village Invers 1_20: 599428992
+      TX Village Invers 1_204: -1673217
+      TX Village Invers 1_6: -491431511
+      TX Village Invers 1_274: -1398052490
+      TX Village Invers 1_219: 1745878329
+      TX Village Invers 1_343: 813260991
+      TX Village Invers 1_139: 21151519
+      TX Village Invers 1_238: -777154081
+      TX Village Invers 1_158: 2087414974
+      TX Village Invers 1_183: -605448203
+      TX Village Invers 1_315: -813622130
+      TX Village Invers 1_378: 1836158216
+      TX Village Invers 1_12: -1266381196
+      TX Village Invers 1_287: -1706156110
+      TX Village Invers 1_389: 721590721
+      TX Village Invers 1_352: 1971816411
+      TX Village Invers 1_208: -2097193960
+      TX Village Invers 1_175: 171586276
+      TX Village Invers 1_299: 1275348117
+      TX Village Invers 1_105: 1346676252
+      TX Village Invers 1_371: -1801390592
+      TX Village Invers 1_153: -1697765951
+      TX Village Invers 1_463: 1906044673
+      TX Village Invers 1_182: 260458152
+      TX Village Invers 1_254: 2026978530
+      TX Village Invers 1_461: 1536177304
+      TX Village Invers 1_312: -1525726154
+      TX Village Invers 1_404: 1891589672
+      TX Village Invers 1_16: 1037605231
+      TX Village Invers 1_10: 1228430690
+      TX Village Invers 1_419: -632738598
+      TX Village Invers 1_11: 575942916
+      TX Village Invers 1_22: 1535047899
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

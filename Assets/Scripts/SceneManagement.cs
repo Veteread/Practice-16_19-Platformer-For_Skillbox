@@ -7,4 +7,9 @@ public class SceneManagement : MonoBehaviour
     {
         SceneManager.LoadScene(Index);
     }   
+
+    public void Restart()
+    {
+    	SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }

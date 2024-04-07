@@ -10,7 +10,7 @@ public class DamageToHero : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && !collision.gameObject.GetComponent<HeroKnight>().Block)
         {
             StartCoroutine(ToDamage(collision));
         }
@@ -19,22 +19,30 @@ public class DamageToHero : MonoBehaviour
     void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Player")
-            StopAllCoroutines();
+        {
+            StopCoroutine(ToDamage(collision));
+        }
     }
 
     private IEnumerator ToDamage(Collision2D collision)
     {
         while (true)
         {
-            collision.gameObject.GetComponent<HeroKnight>().HandleHurt();
-            collision.gameObject.GetComponent<Health>().TakeDamage(Damage);
-            HPhero.text = collision.gameObject.GetComponent<Health>().currentHealth + "";
-            img.fillAmount = collision.gameObject.GetComponent<Health>().currentHealth / 100;
-            if (collision.gameObject.GetComponent<Health>().isAlive == false)
+            if (collision.gameObject.GetComponent<Health>() != null && collision.gameObject.GetComponent<Health>().isAlive == false)
             {
                 collision.gameObject.GetComponent<HeroKnight>().DeathHero();
             }
-            yield return new WaitForSeconds(1.0f);
+            if (collision.gameObject.GetComponent<HeroKnight>())
+            {
+                collision.gameObject.GetComponent<HeroKnight>().HandleHurt();
+            }
+            if (collision.gameObject.GetComponent<Health>())
+            {
+                collision.gameObject.GetComponent<Health>().TakeDamage(Damage);
+                HPhero.text = collision.gameObject.GetComponent<Health>().currentHealth + "";
+                img.fillAmount = collision.gameObject.GetComponent<Health>().currentHealth / 100;
+            }
+            yield return new WaitForSeconds(0.5f);
         }
     }
 }

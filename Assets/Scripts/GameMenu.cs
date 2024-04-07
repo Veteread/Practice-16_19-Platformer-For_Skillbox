@@ -10,7 +10,6 @@ namespace State.Menu
         public override void InitState(MenuController menuController)
         {
             base.InitState(menuController);
-
             state = MenuController.MenuState.Game;
         }
     }

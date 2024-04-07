@@ -1,25 +1,27 @@
 ﻿using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class HeroKnight : MonoBehaviour
 {
-    private const int index = 0;
-    [SerializeField] private float speed = 4.0f;
+    public float speed = 4.0f;
     public Transform GroundCheck;
     public Transform CheckPoint;
     public LayerMask Ground;
     public LayerMask Death;
     public GameObject Dead;
-
+    public GameObject Finish;
+    public bool Block = false;
+    public bool playerControl = false;
+    public Animator animator;
+    public Rigidbody2D rb;
     private Vector2 moveVector;
     private Attack attack;
-    private Animator animator;
-    private Rigidbody2D rb;
     private GameObject obj;
+    private AudioSource audioAttack;
 
     private bool onGround;
     private bool faceRight = true;
     private bool jumpControl = true;
+
 
     private int currentAttack = 0;
     private float timeSinceAttack = 0.0f;
@@ -35,25 +37,33 @@ public class HeroKnight : MonoBehaviour
         attack = GetComponent<Attack>();
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        audioAttack = GetComponent<AudioSource>();
     }
 
     private void Update()
     {
-        timeSinceAttack += Time.deltaTime;
-        float inputX = Input.GetAxis("Horizontal");
-        HandleAttacks(inputX);
-        HandleBlock();
-        HandleMovement(inputX);
-        CheckingGround();
-        Jump();
-        Reflect();
-        RemoveAttack();
+
+        if (playerControl == true)
+        {
+            float inputX = Input.GetAxis("Horizontal");
+            timeSinceAttack += Time.deltaTime;            
+            RemoveAttack();
+            HandleAttacks(inputX);
+            if (Block == false)
+            {
+                HandleMovement(inputX);
+                Reflect();
+                Jump();
+                CheckingGround();
+            }
+        }
+
     }
 
     void RemoveAttack()
     {
         obj = GameObject.FindGameObjectWithTag("RemoveAttack");
-        Destroy(obj, 0.2f);
+        Destroy(obj, 2.2f);
     }
 
     void Jump()
@@ -89,7 +99,13 @@ public class HeroKnight : MonoBehaviour
         {
             DeathHero();
         }
+        if (collision.CompareTag("Finish"))
+        {
+            GetComponent<Vars>().LoadScoreFormlastLvl();
+            FinishImage();
+        }
     }
+
     public void DeathHero()
     {
         animator.SetTrigger("Death");
@@ -102,13 +118,15 @@ public class HeroKnight : MonoBehaviour
         {
             Dead.SetActive(true);
         }
-        Invoke("Scene", 2f);
     }
-    private void Scene()
+
+    private void FinishImage()
     {
-        SceneManager.LoadScene(index);
-        Dead.SetActive(false);
-        transform.position = CheckPoint.position;
+
+        if (!Finish.activeSelf)
+        {
+            Finish.SetActive(true);
+        }
     }
 
     void Reflect()
@@ -135,21 +153,21 @@ public class HeroKnight : MonoBehaviour
             currentAttack = (currentAttack % 3) + 1;
             animator.SetTrigger("Attack" + currentAttack);
             timeSinceAttack = 0.0f;
+            Block = false;
+            audioAttack.Play();
         }
         else if (Input.GetMouseButtonDown(1))
         {
             animator.SetTrigger("Block");
             animator.SetBool("IdleBlock", true);
+            Block = true;
+            rb.velocity = Vector2.zero;
         }
         else if (Input.GetMouseButtonUp(1))
-        {
+        {           
             animator.SetBool("IdleBlock", false);
+            Block = false;
         }
-    }
-
-    private void HandleBlock()
-    {
-
     }
 
     public void HandleHurt()

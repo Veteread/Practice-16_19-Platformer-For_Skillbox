@@ -10,6 +10,8 @@ namespace State.Menu
     {
         //Drags = the different menus we have
         public _MenuState[] allMenus;
+        public HeroKnight hero;
+        private bool heroControl = true;
 
         //The states we can choose from
         public enum MenuState
@@ -71,6 +73,8 @@ namespace State.Menu
             //Jump back one menu step when we press escape
             if (Input.GetKeyDown(KeyCode.Escape))
             {
+                heroControl = !heroControl;
+                hero.gameObject.GetComponent<HeroKnight>().playerControl = heroControl;
                 activeState.JumpBack();
             }
         }
@@ -126,7 +130,10 @@ namespace State.Menu
             }
         }
 
-
+        public void BackGame()
+        {
+            hero.gameObject.GetComponent<HeroKnight>().playerControl = true;
+        }
 
         //Quit game
         public void QuitGame()
