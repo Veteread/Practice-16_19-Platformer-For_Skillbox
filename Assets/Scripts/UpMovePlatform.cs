@@ -15,7 +15,6 @@ public class UpMovePlatform : MonoBehaviour
     {
     	if (other.GetComponent<Collider2D>().tag == "Player")
     	{
-    		Debug.Log("move on the platform");
             sj.enabled = true;
         }
     	if (other.GetComponent<Collider2D>().tag == "Check")
@@ -29,11 +28,5 @@ public class UpMovePlatform : MonoBehaviour
     			sj.angle = -90;
     		}
     	}
-
-    	
-    }
-    void OnTriggerExit2D(Collider2D other)
-    {
-    	//other.transform.parent = null;
     }
 }

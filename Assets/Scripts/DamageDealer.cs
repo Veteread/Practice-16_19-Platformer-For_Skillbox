@@ -3,11 +3,12 @@ using UnityEngine;
 public class DamageDealer : MonoBehaviour
 {
     public float Damage;
-    public GameObject BoomPrefab;
     public Animator anim;
 
     private int enemy = 1;
     private GameObject varE;
+    private Collider2D boomCol;
+
     
     void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,13 +27,13 @@ public class DamageDealer : MonoBehaviour
             else
             {
             anim.SetTrigger("hurt");
-        	}            
-            Destroy(gameObject);
+        	}
         }
         if (collision.CompareTag("damageble"))
         {
-            GameObject boom = Instantiate(BoomPrefab, transform.position, Quaternion.identity);
-            Destroy(boom, 0.2f);
+        	collision.gameObject.GetComponent<AudioBoom>().SoundBoom();        	
         }
     }
+
+    
 }

@@ -18,7 +18,7 @@ public class EnemyController : MonoBehaviour
 
     void Start()
     {
-        currentState = walkS;
+        currentState = idleS;
         rb = GetComponent<Rigidbody2D>();
     }
 

@@ -1,35 +1,36 @@
 using UnityEngine;
-using UnityEngine.Playables;
+using Cinemachine;
 
 public class CutScene : MonoBehaviour
 {
-    public PlayableDirector cutsceneDirector;
-    public Canvas CanvasDisplay;
+    public GameObject CanvasDisplay;
+    public GameObject Cut;
+    public GameObject Crow;
+    public CinemachineVirtualCamera Cam2;
     private Collider2D playerCollider;
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            playerCollider = other;
-            other.gameObject.GetComponent<HeroKnight>().rb.velocity = Vector2.zero;
-            other.gameObject.GetComponent<HeroKnight>().animator.SetInteger("AnimState", 0);
-            other.gameObject.GetComponent<HeroKnight>().playerControl = false;
-            CanvasDisplayOff();
-            cutsceneDirector.Play();
-            Invoke("CanvasDisplayOn", 10f);
-        }
+        playerCollider = other;
+        other.gameObject.GetComponent<HeroKnight>().StopForCutScene();
+        Invoke("CanvasDisplayOff", 2f);
+        Cam2.Priority = 20;
     }
 
     private void CanvasDisplayOff()
     {
-        CanvasDisplay.enabled = false;
+        Cut.SetActive(true);
+        CanvasDisplay.SetActive(false);
     }
-    private void CanvasDisplayOn()
+
+    public void CanvasDisplayOn()
     {
-        Debug.Log("ON");
-        CanvasDisplay.enabled = true;
+        Cut.SetActive(false);
+        Cam2.Priority = 5;
+        CanvasDisplay.SetActive(true);
         playerCollider.gameObject.GetComponent<HeroKnight>().playerControl = true;
-        Destroy(this.gameObject);
+        Crow.gameObject.GetComponentInChildren<Animator>().SetTrigger("dead");
+        Destroy(Crow, 1f);
+        Destroy(gameObject);
     }
 }

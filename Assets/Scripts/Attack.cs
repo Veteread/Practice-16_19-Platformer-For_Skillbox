@@ -7,15 +7,15 @@ public class Attack : MonoBehaviour
     public Transform FirePointR;
     public Transform FirePointL;
 
-    public void AttackHero(float direction)
+    public void AttackHero(bool direction)
     {
-        if (direction >= 0) 
+        if (direction == true) 
         {
         	GameObject currentAttack = Instantiate(AttackPfb, FirePointR.position, Quaternion.identity);
         	Rigidbody2D currentAttackVelocity = currentAttack.GetComponent<Rigidbody2D>();
         	currentAttackVelocity.velocity = new Vector2 (FireSpeed * 1, currentAttackVelocity.velocity.y);
         }
-        else 
+        else
         {
         	GameObject currentAttack = Instantiate(AttackPfb, FirePointL.position, Quaternion.identity);
         	Rigidbody2D currentAttackVelocity = currentAttack.GetComponent<Rigidbody2D>();

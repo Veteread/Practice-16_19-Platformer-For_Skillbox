@@ -1209,8 +1209,8 @@ TextureImporter:
         y: 960
         width: 32
         height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -10217,7 +10217,7 @@ TextureImporter:
       TX Village Props_231: -1192982301
       TX Village Props_362: 1477085917
       TX Village Props_73: 665069717
-      TX Village Props_255: -1161241289
+      TX Village Props_109: -1773455813
       TX Village Props_79: -1520032381
       TX Village Props_272: 915542417
       TX Village Props_344: 1120489117
@@ -10230,7 +10230,7 @@ TextureImporter:
       TX Village Props_90: 1810488205
       TX Village Props_114: -2110537826
       TX Village Props_156: 1146533486
-      TX Village Props_109: -1773455813
+      TX Village Props_255: -1161241289
       TX Village Props_256: -606977588
       TX Village Props_55: -1234123247
       TX Village Props_333: -1285454331

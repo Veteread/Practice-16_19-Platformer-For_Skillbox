@@ -48,25 +48,18 @@ public class Vars : MonoBehaviour
         PlayerPrefs.SetInt("scor", _SumScore);
         SumscoreText.text = PlayerPrefs.GetInt("scor") + "";
         HighscoreText.text = PlayerPrefs.GetInt("LvlScore") + PlayerPrefs.GetInt("scor") + "";
-
-
-        //if (PlayerPrefs.GetInt("Highscor") <= PlayerPrefs.GetInt("scor"))
-        //{
-        //    _HighScore = _SumScore + _HighScore;
-        //    PlayerPrefs.SetInt("Highscor", _HighScore);
-        //}
     }
     public void ResetHighScore()
     {
         PlayerPrefs.SetInt("scor", 0);
         PlayerPrefs.SetInt("LvlScore", 0);
         PlayerPrefs.SetInt("HighScor", 0);
+        BossStatic.StartBossOn = false;
     }
     public void SaveScoreFormlastLvl()
     {
         _SumScore = PlayerPrefs.GetInt("LvlScore") + _SumScore;
         PlayerPrefs.SetInt("LvlScore", _SumScore);
-        HighscoreText.text = PlayerPrefs.GetInt("LvlScore") + "";
     }
     public void LoadScoreFormlastLvl()
     {
@@ -74,7 +67,6 @@ public class Vars : MonoBehaviour
         {
             _HighScore = PlayerPrefs.GetInt("LvlScore") + _SumScore;
             HighscoreText.text = PlayerPrefs.GetInt("LvlScore") + "";
-            Debug.Log(_HighScore);
             finishLvl = false;
         }
     }

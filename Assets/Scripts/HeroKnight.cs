@@ -1,35 +1,40 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 
 public class HeroKnight : MonoBehaviour
 {
-    public float speed = 4.0f;
+    
     public Transform GroundCheck;
     public Transform CheckPoint;
     public LayerMask Ground;
     public LayerMask Death;
     public GameObject Dead;
     public GameObject Finish;
-    public bool Block = false;
-    public bool playerControl = false;
-    public Animator animator;
-    public Rigidbody2D rb;
+    public Image img;
+
+    private Animator animator;
+    private Rigidbody2D rb;
     private Vector2 moveVector;
     private Attack attack;
     private GameObject obj;
     private AudioSource audioAttack;
 
-    private bool onGround;
-    private bool faceRight = true;
+    public float speed = 4.0f;
+    public bool faceRight = true;
+    public bool Block = false;
+    public bool playerControl = false;
+    
     private bool jumpControl = true;
-
-
+    private bool onGround;
     private int currentAttack = 0;
     private float timeSinceAttack = 0.0f;
     private float delayToIdle = 0.0f;
-    private float jumpForce = 160f;
+    private float jumpForce = 180f;
     private float jumpTime = 0;
     private float jumpControlTime = 0.7f;
     private float groundCheckRadius;
+
+    
 
     private void Start()
     {
@@ -63,7 +68,7 @@ public class HeroKnight : MonoBehaviour
     void RemoveAttack()
     {
         obj = GameObject.FindGameObjectWithTag("RemoveAttack");
-        Destroy(obj, 2.2f);
+        Destroy(obj, 0.1f);
     }
 
     void Jump()
@@ -116,7 +121,8 @@ public class HeroKnight : MonoBehaviour
     {
         if (!Dead.activeSelf)
         {
-            Dead.SetActive(true);
+            Dead.SetActive(true);            
+            transform.position = CheckPoint.position;
         }
     }
 
@@ -149,7 +155,7 @@ public class HeroKnight : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && timeSinceAttack > 0.25f)
         {
-            attack.AttackHero(inputX);
+            attack.AttackHero(faceRight);
             currentAttack = (currentAttack % 3) + 1;
             animator.SetTrigger("Attack" + currentAttack);
             timeSinceAttack = 0.0f;
@@ -195,5 +201,19 @@ public class HeroKnight : MonoBehaviour
         animator.SetFloat("moveX", Mathf.Abs(moveVector.x));
         moveVector.x = inputX;
         rb.velocity = new Vector2(moveVector.x * speed, rb.velocity.y);
+    }
+
+    public void DamageToHeroTreatment(float Damage)
+    {
+        HandleHurt();
+        GetComponent<Health>().TakeDamage(Damage);
+        img.fillAmount = gameObject.GetComponent<Health>().currentHealth / 100;
+    }
+
+    public void StopForCutScene()
+    {
+        rb.velocity = Vector2.zero;
+        animator.SetInteger("AnimState", 0);
+        playerControl = false;
     }
 }

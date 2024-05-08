@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Timeline;
 
 public class Health : MonoBehaviour
 {   
@@ -6,16 +7,20 @@ public class Health : MonoBehaviour
 	public float currentHealth;
 	public bool isAlive;
 
+    private AudioSource audioKick;
+
     void Awake()
     {
         currentHealth = MaxHealth;
         isAlive = true;
+        audioKick = GetComponent<AudioSource>();
     }    
 
    public void TakeDamage (float Damage)
     {
     	currentHealth -= Damage;
-    	CheckisAlive();
+        audioKick.Play();
+        CheckisAlive();
     }
 
     private void CheckisAlive()

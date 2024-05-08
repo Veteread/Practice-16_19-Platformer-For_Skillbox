@@ -5,6 +5,9 @@ public class TransformsCrow : MonoBehaviour
 {
     public Transform[] transforms;
     private List<int> usedIndices = new List<int>();
+    
+    public bool dead = false;
+    private int sumPorts;
 
     public Transform TCrow()
     {
@@ -15,16 +18,15 @@ public class TransformsCrow : MonoBehaviour
             {
                 randomIndex = Random.Range(0, transforms.Length);
             }
-            while (usedIndices.Contains(randomIndex) && usedIndices.Count < transforms.Length); // ƒобавлена проверка на количество использованных transforms
-            if (usedIndices.Count >= transforms.Length)
+            while (usedIndices.Contains(randomIndex) && usedIndices.Count < transforms.Length); 
+            sumPorts++;
+            if (sumPorts == 5)
             {
-
-                Debug.Log("No more transforms available, cannot instantiate Crow.");
-                return null; // ¬озвращаем null, если все transforms использованы
-            }
+                dead = true; 
+            }            
             usedIndices.Add(randomIndex);
             return transforms[randomIndex];
         }
-        return null; // ¬озвращаем null, если `transforms` равен `null`
+        return null; 
     }
 }

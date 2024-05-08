@@ -4,9 +4,8 @@ using UnityEngine.UI;
 
 public class DamageToHero : MonoBehaviour
 {
-    public Text HPhero;
-    public Image img;
     public float Damage;
+    private Collision2D hero;
 
     void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,7 +19,7 @@ public class DamageToHero : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            StopCoroutine(ToDamage(collision));
+            StopAllCoroutines();
         }
     }
 
@@ -32,15 +31,12 @@ public class DamageToHero : MonoBehaviour
             {
                 collision.gameObject.GetComponent<HeroKnight>().DeathHero();
             }
-            if (collision.gameObject.GetComponent<HeroKnight>())
+            else
             {
-                collision.gameObject.GetComponent<HeroKnight>().HandleHurt();
-            }
-            if (collision.gameObject.GetComponent<Health>())
-            {
-                collision.gameObject.GetComponent<Health>().TakeDamage(Damage);
-                HPhero.text = collision.gameObject.GetComponent<Health>().currentHealth + "";
-                img.fillAmount = collision.gameObject.GetComponent<Health>().currentHealth / 100;
+                if (collision.gameObject.GetComponent<HeroKnight>() != null)
+                {
+                collision.gameObject.GetComponent<HeroKnight>().DamageToHeroTreatment(Damage);                
+                }
             }
             yield return new WaitForSeconds(0.5f);
         }
